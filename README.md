@@ -1,8 +1,7 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/BootcampersCollective/slackbot-project.png?columns=all)](https://waffle.io/BootcampersCollective/slackbot-project?utm_source=badge)
+
 # slackbot-project
 Repository for the BCC Slackbot Project.
-
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/BootcampersCollective/slackbot-project.svg?columns=all)](https://waffle.io/BootcampersCollective/slackbot-project)
 
 ## Contributing
 * To initially begin working on the project, you'll need to first reach out to Charlie Beck on [Slack](https://bootcamperscollective.com) to be added to the team.
