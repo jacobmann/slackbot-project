@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/BootcampersCollective/slackbot-project.png?columns=all)](https://waffle.io/BootcampersCollective/slackbot-project?utm_source=badge)
 # slackbot-project
 Repository for the BCC Slackbot Project.
 
