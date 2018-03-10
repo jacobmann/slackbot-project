@@ -15,8 +15,12 @@ module.exports = function (robot) {
           robot.logger.info(err)
           res.send("Something went wrong")
         } else if (response.statusCode === 200) {
-          robot.logger.info(response)
-          res.send(JSON.stringify(body))
+          var data = JSON.parse(body);
+          for (var i = 0; i < data.channels.length; i++) {
+            res.send("*" + data.channels[i].name+ "*" + ": " + data.channels[i].purpose.value);
+          }
+          robot.logger.info(data.channels);
+          // res.send(JSON.stringify(data));
         } else {
           robot.logger.info(body + response.statusCode)
           res.send("Something went wrong")
